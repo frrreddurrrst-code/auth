@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+# psycopg2-binary  # Проблемы на Windows
+# asyncpg  # Требует компиляцию
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic
+pydantic-settings
+python-dotenv
+email-validator
+pytest
+pytest-asyncio
+httpx
